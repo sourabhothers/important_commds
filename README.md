@@ -26,3 +26,8 @@ mongorestore --uri="mongodb://localhost:27017" "output/directoryName"
 
 ## restore to replicasSet
 -  mongorestore --uri="mongodb://127.0.0.1:27017,127.0.0.1:27018,127.0.0.1:27019/?replicaSet=rs0" "/tmp/mongodb-backup"
+
+
+# Reference
+1. https://www.digitalocean.com/community/tutorials/how-to-configure-a-mongodb-replica-set-on-ubuntu-20-04
+2. https://www.youtube.com/watch?v=gChzfhVGqp8
